@@ -3,6 +3,7 @@ import BgChanger from "./components/BgChanger";
 import PasswordGenerator from "./components/PasswordGenerator";
 import CurrencyConverter from "./components/CurrencyConverter";
 import ReactRouter from "./components/ReactRouter";
+import ReactContext from "./components/ReactContext";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <BgChanger /> */}
       {/* <PasswordGenerator /> */}
       {/* <CurrencyConverter /> */}
-      <ReactRouter />
+      {/* <ReactRouter /> */}
+      <ReactContext />
     </>
   );
 };
