@@ -4,6 +4,7 @@ import PasswordGenerator from "./components/PasswordGenerator";
 import CurrencyConverter from "./components/CurrencyConverter";
 import ReactRouter from "./components/ReactRouter";
 import ReactContext from "./components/ReactContext";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       {/* <PasswordGenerator /> */}
       {/* <CurrencyConverter /> */}
       {/* <ReactRouter /> */}
-      <ReactContext />
+      {/* <ReactContext /> */}
+      <ThemeSwitcher />
     </>
   );
 };
