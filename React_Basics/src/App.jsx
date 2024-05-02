@@ -5,6 +5,7 @@ import CurrencyConverter from "./components/CurrencyConverter";
 import ReactRouter from "./components/ReactRouter";
 import ReactContext from "./components/ReactContext";
 import ThemeSwitcher from "./components/ThemeSwitcher";
+import Todo from "./components/Todo";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <CurrencyConverter /> */}
       {/* <ReactRouter /> */}
       {/* <ReactContext /> */}
-      <ThemeSwitcher />
+      {/* <ThemeSwitcher /> */}
+      <Todo />
     </>
   );
 };
