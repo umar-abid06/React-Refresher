@@ -6,6 +6,7 @@ import ReactRouter from "./components/ReactRouter";
 import ReactContext from "./components/ReactContext";
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Todo from "./components/Todo";
+import RtkTodo from "./components/RtkTodo";
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <ReactRouter /> */}
       {/* <ReactContext /> */}
       {/* <ThemeSwitcher /> */}
-      <Todo />
+      {/* <Todo /> */}
+      <RtkTodo />
     </>
   );
 };

@@ -16,6 +16,8 @@ import User from "./components/reactRouterComponents/User/User.jsx";
 import Github, {
   githubApiCall,
 } from "./components/reactRouterComponents/Github/Github.jsx";
+import { Provider } from "react-redux";
+import { store } from "./components/RTKTodoComponents/app/store.js";
 
 // const router = createBrowserRouter([
 //   {
@@ -52,6 +54,8 @@ const router = createBrowserRouter(
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* <RouterProvider router={router} /> */}
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.StrictMode>
 );
